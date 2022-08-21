@@ -18,14 +18,14 @@ export default function Layout({ children }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <title>zkGames</title>
+        <title>zkArcade</title>
         <meta name="title" content="zkGames" />
         <meta name="description" content="Zero Knowledge Games Platform" />
         <meta name="theme-color" content="#ea580c" />
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://zkgames.one/" />
+        <meta property="twitter:url" content="#" />
         <meta property="twitter:title" content="zkGames" />
         <meta
           property="twitter:description"
