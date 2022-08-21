@@ -32,7 +32,7 @@ ZkArcade Demo Video:
   - [Run contracts](#run-contracts)
   - [Run zkarcade-ui](#run-zkarcade-ui)
 - [Steps to Add a New Game](#steps-to-add-a-new-game)
-- [Images of the zkArcade Application](#some-images-of-the-zkgames-application)
+- [Images of the zkArcade Application](#some-images-of-the-zkarcade-application)
   - [Initial page](#initial-page)
   - [Futoshiki Game](#futoshiki-game)
   - [Skyscrapers Game](#skyscrapers-game)
@@ -137,7 +137,7 @@ cd contracts
 
 Then, follow the intructions in the [README file](/contracts/README.md) in the `contracts` folder.
 
-### Run zkgames-ui
+### Run zkarcade-ui
 
 To run the frontend, go inside the `zkarcade-ui` folder:
 
@@ -183,7 +183,7 @@ Steps to follow to add a new game (in each step you can check how is done with t
  }
 ```
 
-## Some Images of the ZkArcade Application
+## Images of the ZkArcade Application
 
 ### Initial page
 
