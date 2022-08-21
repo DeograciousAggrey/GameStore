@@ -6,7 +6,7 @@ zkArcade is a platform that allows users to play zk (zero knowledge) games and m
 
 <!-- The project is currently on [Harmony Testnet](https://explorer.pops.one/) and the frontend is hosted on [Vercel](https://github.com/vercel/vercel). -->
 
-The project is currently on [Polygon Mumbai](https://mumbai.polygonscan.com/address/0xD0276C2f1353157A562400309560C9cdCBA47212) and the frontend is hosted on [Vercel](https://github.com/vercel/vercel).
+The project is currently on [Polygon Mumbai](https://mumbai.polygonscan.com/address/) and the frontend is hosted on [Vercel](https://github.com/vercel/vercel).
 
 ZkArcade has 3 games so far: Futoshiki, Skyscrapers and Sudoku.
 
