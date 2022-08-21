@@ -1,4 +1,4 @@
-# zkGames circom circuits
+# zkArcade circom circuits
 
 This folder contains all the [circom circuits](https://github.com/iden3/circom) used in the zkGames application.
 
