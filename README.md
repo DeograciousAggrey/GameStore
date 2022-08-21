@@ -32,7 +32,7 @@ ZkArcade Demo Video:
   - [Run contracts](#run-contracts)
   - [Run zkarcade-ui](#run-zkarcade-ui)
 - [Steps to Add a New Game](#steps-to-add-a-new-game)
-- [Images of the zkArcade Application](#some-images-of-the-zkarcade-application)
+- [Images of the zkArcade Application](#images-of-the-zkarcade-application)
   - [Initial page](#initial-page)
   - [Futoshiki Game](#futoshiki-game)
   - [Skyscrapers Game](#skyscrapers-game)
