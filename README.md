@@ -2,19 +2,20 @@
 
 ![zkGamesRepoImage](https://user-images.githubusercontent.com/52170174/164951489-8f3d9b0a-4334-4dfb-b0d6-b6a87ff81424.png)
 
-zkGames is a platform that allows users to play zk (zero knowledge) games and mint an NFT as proof that they have won.
+zkArcade is a platform that allows users to play zk (zero knowledge) games and mint an NFT as proof that they have won.
 
 <!-- The project is currently on [Harmony Testnet](https://explorer.pops.one/) and the frontend is hosted on [Vercel](https://github.com/vercel/vercel). -->
 
-The project is currently on [Harmony Mainnet](https://explorer.harmony.one/) and the frontend is hosted on [Vercel](https://github.com/vercel/vercel).
+The project is currently on [Polygon Mumbai](https://mumbai.polygonscan.com/address/0xD0276C2f1353157A562400309560C9cdCBA47212) and the frontend is hosted on [Vercel](https://github.com/vercel/vercel).
 
-zkGames has 3 games so far: Futoshiki, Skyscrapers and Sudoku.
+ZkArcade has 3 games so far: Futoshiki, Skyscrapers and Sudoku.
 
-zkGames Link:
+ZkArcade Link:
 
-<https://zkgames.one/>
+<https://zk-arcade.vercel.app/>
 
-zkGames Demo Video:
+
+ZkArcade Demo Video:
 
 <https://youtu.be/EpeK3WzmS8Y>
 
@@ -23,15 +24,15 @@ zkGames Demo Video:
 - [Project Structure](#project-structure)
   - [circuits](#circuits)
   - [contracts](#contracts)
-  - [zkgames-ui](#zkgames-ui)
+  - [zkarcade-ui](#zkarcade-ui)
 - [Zero Knowledge Structure](#zero-knowledge-structure)
 - [Run Locally](#run-locally)
   - [Clone the Repository](#clone-the-repository)
   - [Run circuits](#run-circuits)
   - [Run contracts](#run-contracts)
-  - [Run zkgames-ui](#run-zkgames-ui)
+  - [Run zkarcade-ui](#run-zkarcade-ui)
 - [Steps to Add a New Game](#steps-to-add-a-new-game)
-- [Some Images of the zkGames Application](#some-images-of-the-zkgames-application)
+- [Images of the zkArcade Application](#some-images-of-the-zkgames-application)
   - [Initial page](#initial-page)
   - [Futoshiki Game](#futoshiki-game)
   - [Skyscrapers Game](#skyscrapers-game)
@@ -43,25 +44,25 @@ The project has three main folders:
 
 - circuits
 - contracts
-- zkgames-ui
+- zkarcade-ui
 
 ### circuits
 
-The [circuits folder](/circuits/) contains all the circuits used in zkGames.
+The [circuits folder](/circuits/) contains all the circuits used in zkArcade.
 
-To learn more about the zkGames circuits, read the [README file](/circuits/README.md) inside the `circuits` folder.
+To learn more about the zkArcade circuits, read the [README file](/circuits/README.md) inside the `circuits` folder.
 
 ### contracts
 
-The [contracts folder](/contracts/) contains all the smart contracts used in zkGames.
+The [contracts folder](/contracts/) contains all the smart contracts used in zkArcade.
 
-To learn more about the zkGames smart contracts, read the [README file](/contracts/README.md) inside the `contracts` folder.
+To learn more about the zkArcade smart contracts, read the [README file](/contracts/README.md) inside the `contracts` folder.
 
-### zkgames-ui
+### zkarcade-ui
 
-The [zkgames-ui folder](/zkgames-ui/) contains the zkGames frontend.
+The [zkarcade-ui folder](/zkarcade-ui/) contains the zkArcade frontend.
 
-To learn more about the zkGames frontend, read the [README file](/zkgames-ui/README.md) in the `zkgames-ui` folder.
+To learn more about the zkArcade frontend, read the [README file](/zkarcade-ui/README.md) in the `zkarcade-ui` folder.
 
 ## Zero Knowledge Structure
 
@@ -86,7 +87,7 @@ The following graphic shows the structure of the most important zero knowledge e
 │   │   ├── Sudoku
 │   │   │   ├── Sudoku.sol
 │   │   │   ├── verifier.sol
-├── zkgames-ui
+├── zkarcade-ui
 │   ├── public
 │   │   ├── zkproof
 │   │   │   ├── futoshiki
@@ -113,7 +114,7 @@ The following graphic shows the structure of the most important zero knowledge e
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/vplasencia/zkGames.git
+git clone https://github.com/DeograciousAggrey/zkArcade
 ```
 
 ### Run circuits
@@ -138,13 +139,13 @@ Then, follow the intructions in the [README file](/contracts/README.md) in the `
 
 ### Run zkgames-ui
 
-To run the frontend, go inside the `zkgames-ui` folder:
+To run the frontend, go inside the `zkarcade-ui` folder:
 
 ```bash
 cd zkgames-ui
 ```
 
-Then, follow the intructions in the [README file](/zkgames-ui/README.md) in the `zkgames-ui` folder.
+Then, follow the intructions in the [README file](/zkarcade-ui/README.md) in the `zkarcade-ui` folder.
 
 ## Steps to Add a New Game
 
@@ -164,15 +165,15 @@ Steps to follow to add a new game (in each step you can check how is done with t
 
 3\. **Create the user interface of the game:**
 
-- Inside `zkgames-ui/components`, add a new folder to create all the components needed to render the game.
-- Add a new page inside `zkgames-ui/pages` to access the new game.
-- Create the css of that page inside `zkgames-ui/styles`, called `<GameName>.module.css`.
-- Add an image inside `zkgames-ui/assets` to represent the game (width: 700 pixels and height: 700 pixels).
-- Inside `zkgames-ui/public/zkproof` add a new folder with the wasm and zkey elements generated before.
+- Inside `zkarcade-ui/components`, add a new folder to create all the components needed to render the game.
+- Add a new page inside `zkarcade-ui/pages` to access the new game.
+- Create the css of that page inside `zkarcade-ui/styles`, called `<GameName>.module.css`.
+- Add an image inside `zkarcade-ui/assets` to represent the game (width: 700 pixels and height: 700 pixels).
+- Inside `zkarcade-ui/public/zkproof` add a new folder with the wasm and zkey elements generated before.
 - Inside `zkgames-ui/utils/abiFiles`, add a new folder with the `json` abi file of the smart contract.
-- In `zkgames-ui/utils/contractaddress.json`, add the new contract address.
-- In `zkgames-ui/zkproof`, create a new folder and inside the new folder create a new file called `snarkjs<NewGame>.js` with the code to export the call data.
-- In `zkgames-ui/components/gameList.js` add the game as follows:
+- In `zkarcade-ui/utils/contractaddress.json`, add the new contract address.
+- In `zkarcade-ui/zkproof`, create a new folder and inside the new folder create a new file called `snarkjs<NewGame>.js` with the code to export the call data.
+- In `zkarcade-ui/components/gameList.js` add the game as follows:
 
 ```javascript
  {
@@ -182,20 +183,20 @@ Steps to follow to add a new game (in each step you can check how is done with t
  }
 ```
 
-## Some Images of the zkGames Application
+## Some Images of the ZkArcade Application
 
 ### Initial page
 
-![InitialPage](https://user-images.githubusercontent.com/52170174/164957823-ea7dfb78-c151-4830-b714-e3f66a424d57.png)
+![InitialPage](https://user-images.githubusercontent.com/68210234/185812026-1f5e2d0b-de1c-4c96-94c3-b7360993c5a6.png)
 
 ### Futoshiki Game
 
-![FutoshikiGame](https://user-images.githubusercontent.com/52170174/164957832-95c27552-8248-453c-a6e3-7bca2d97d087.png)
+![FutoshikiGame](https://user-images.githubusercontent.com/68210234/185812023-7a8e7598-c48c-4be7-958d-8a6cec1d444b.png)
 
 ### Skyscrapers Game
 
-![SkyscrapersGame](https://user-images.githubusercontent.com/52170174/164957837-959530b8-399b-4551-8a37-145e9ff70e3e.png)
+![SkyscrapersGame](https://user-images.githubusercontent.com/68210234/185812019-02518410-a185-4335-9fc3-fb200295d3a9.png)
 
 ### Sudoku Game
 
-![SudokuGame](https://user-images.githubusercontent.com/52170174/164957841-08d9166d-99ba-4dbe-88b1-86a507734e6c.png)
+![SudokuGame](https://user-images.githubusercontent.com/68210234/185812025-397a303a-f524-419c-8a33-ac6ce69752c1.png)
