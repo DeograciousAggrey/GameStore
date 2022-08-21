@@ -1,6 +1,6 @@
 # zkArcade <!-- omit in toc -->
 
-![zkGamesRepoImage](https://user-images.githubusercontent.com/68210234/185812641-9c29c5ce-08a1-434d-b87a-7d71b7977eaa.png)
+![zkGamesRepoImage](https://user-images.githubusercontent.com/68210234/185812708-ae6d72d1-34f5-4fb0-9cba-bd3a1f75f2fa.png)
 
 zkArcade is a platform that allows users to play zk (zero knowledge) games and mint an NFT as proof that they have won.
 
