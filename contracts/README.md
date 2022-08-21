@@ -1,4 +1,4 @@
-# zkGames smart contracts
+# ZkArcade smart contracts
 
 This folder was generated using [Hardhat](https://github.com/NomicFoundation/hardhat) and contains all the smart contracts used in the zkGames application.
 
