@@ -18,7 +18,7 @@ npx hardhat test
 
 When you run tests you will see something like this:
 
-![tests](https://user-images.githubusercontent.com/52170174/166123994-9c68c215-f538-4216-bd50-18d29d4fe4ba.png)
+![tests](https://user-images.githubusercontent.com/68210234/185803783-2c28e385-7781-469a-9922-5f7da79dfc9d.png)
 
 ## Deploy on [Harmony Testnet](https://explorer.pops.one/)
 
