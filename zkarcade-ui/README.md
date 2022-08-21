@@ -1,4 +1,4 @@
-# zkGames frontend
+# zkArcade frontend
 
 This folder contains the frontend of the zkGames application.
 

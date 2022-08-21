@@ -1,4 +1,4 @@
-# zkGames <!-- omit in toc -->
+# zkArcade <!-- omit in toc -->
 
 ![zkGamesRepoImage](https://user-images.githubusercontent.com/52170174/164951489-8f3d9b0a-4334-4dfb-b0d6-b6a87ff81424.png)
 
