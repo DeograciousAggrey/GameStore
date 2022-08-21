@@ -20,7 +20,7 @@ When you run tests you will see something like this:
 
 ![tests](https://user-images.githubusercontent.com/68210234/185803783-2c28e385-7781-469a-9922-5f7da79dfc9d.png)
 
-## Deploy on [Harmony Testnet](https://explorer.pops.one/)
+## Deploy on [Polygon Mumbai](https://mumbai.polygonscan.com/)
 
 Create a `.env` file and add to it:
 
@@ -30,27 +30,12 @@ PRIVATE_KEY=<yourPrivateKey>
 
 where `yourPrivateKey` is the private key of your wallet.
 
-To deploy on Harmony Testnet run:
+To deploy on Polygon Mumbai run:
 
 ```bash
-npx hardhat run scripts/deploy.js --network harmonyTestnet
+npx hardhat run scripts/deploy.js --network mumbai
 ```
-
-## Deploy on [Harmony Mainnet](https://explorer.harmony.one/)
-
-Create a `.env` file and add to it:
-
-```text
-PRIVATE_KEY=<yourPrivateKey>
-```
-
-where `yourPrivateKey` is the private key of your wallet.
-
-To deploy on Harmony Mainnet run:
-
-```bash
-npx hardhat run scripts/deploy.js --network harmonyMainnet
-```
+``
 
 ## Futoshiki contracts graph
 
