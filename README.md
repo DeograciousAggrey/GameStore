@@ -17,7 +17,7 @@ ZkArcade Link:
 
 ZkArcade Demo Video:
 
-<https://youtu.be/EpeK3WzmS8Y>
+<https://youtu.be/BKbPec69ZV0>
 
 ## Table of Contents <!-- omit in toc -->
 
