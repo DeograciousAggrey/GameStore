@@ -18,13 +18,20 @@ ZkArcade Demo Video:
 
 <https://youtu.be/xzd4vLtB8Lc>
 
-Project Deployment Links in the Mumbai explorer;
+##Project Deployment Links in the Mumbai explorer;
+
 SudokuVerifier Contract deployed to: <https://mumbai.polygonscan.com/address/0xB0a7f823688BdB6125780D1Ebd2940Bf32F14FD6>
+
 Sudoku Contract deployed to: <https://mumbai.polygonscan.com/address/0xD0276C2f1353157A562400309560C9cdCBA47212>
+
 FutoshikiVerifier deployed to: <https://mumbai.polygonscan.com/address/0x164ae108DC16Eb8365C57b2339b3831800132B6C>
+
 Futoshiki deployed to: <https://mumbai.polygonscan.com/address/0x0975D36B1A1125c28816c1106Aeef90df102331a>
+
 SkyscrapersVerifier Contract deployed to: <https://mumbai.polygonscan.com/address/0x9F139c4e22e0d6e203209Ce1b104A843ffBb38e5>
+
 Skyscrapers Contract deployed to: <https://mumbai.polygonscan.com/address/0x403f1B0d43fd40BDA51Dbc990cEDcc174C2DbA8d>
+
 
 
 
