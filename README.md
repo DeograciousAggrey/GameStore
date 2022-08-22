@@ -9,16 +9,16 @@ The project is currently on [Polygon Mumbai](https://mumbai.polygonscan.com/) an
 
 ZkArcade has 3 games so far: Futoshiki, Skyscrapers and Sudoku.
 
-ZkArcade Link:
+## ZkArcade Link:
 
 <https://zk-arcade.vercel.app/>
 
 
-ZkArcade Demo Video:
+## ZkArcade Demo video:
 
 <https://youtu.be/xzd4vLtB8Lc>
 
-##Project Deployment Links in the Mumbai explorer;
+## Contract Deployment Links in the mumbai explorer;
 
 SudokuVerifier Contract deployed to: <https://mumbai.polygonscan.com/address/0xB0a7f823688BdB6125780D1Ebd2940Bf32F14FD6>
 
