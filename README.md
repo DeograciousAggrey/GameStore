@@ -4,7 +4,6 @@
 
 zkArcade is a platform that allows users to play zk (zero knowledge) games and mint an NFT as proof that they have won.
 
-<!-- The project is currently on [Harmony Testnet](https://explorer.pops.one/) and the frontend is hosted on [Vercel](https://github.com/vercel/vercel). -->
 
 The project is currently on [Polygon Mumbai](https://mumbai.polygonscan.com/) and the frontend is hosted on [Vercel](https://github.com/vercel/vercel).
 
@@ -17,7 +16,7 @@ ZkArcade Link:
 
 ZkArcade Demo Video:
 
-<https://youtu.be/BKbPec69ZV0>
+<https://youtu.be/xzd4vLtB8Lc>
 
 ## Table of Contents <!-- omit in toc -->
 
