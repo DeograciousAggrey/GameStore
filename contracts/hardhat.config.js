@@ -29,8 +29,8 @@ module.exports = {
     },
   },
   networks: {
-    mumbai: {
-      url: "https://rpc-mumbai.maticvigil.com/",
+    testnet: {
+      url: "https://eth.bd.evmos.dev:8545",
       accounts: [process.env.PRIVATE_KEY],
     },
   },
