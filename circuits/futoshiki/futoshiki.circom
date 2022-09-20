@@ -9,6 +9,7 @@ template Futoshiki() {
     // inequalities[i] = 0 means that there is no inequality in i. 
     // inequalities[i] = 1 means that there is the < inequality in i. 
     // inequalities[i] = 2 means that there is the > inequality in i. 
+    //inequalities are 
     signal input inequalities[24];
 
 
